@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Formulário de contato para falar com Luis Miguel Frasão.">
+    <title>Contato - Luis Miguel Frasão</title>
+</head>
+<body>
+
+    <header>
+        <h1>Entre em contato</h1>
+        <p>Preencha o formulário abaixo para falar comigo.</p>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Formulário de contato</legend>
+
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Informe o nome completo" required autofocus>
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+                </p>
+
+                <p>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+                </p>
+
+                <p>
+                    Você é recrutador(a)?<br>
+                    <label><input type="radio" name="recrutador" value="sim" required> Sim</label>
+                    <label><input type="radio" name="recrutador" value="nao"> Não</label>
+                </p>
+
+                <p>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="8" cols="50" maxlength="500" placeholder="Escreva sua mensagem" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar</button>
+                </p>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p><a href="index.html">Voltar à página principal</a></p>
+    </footer>
+
+</body>
+</html>
